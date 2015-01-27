@@ -27,8 +27,8 @@ public class WidgetItem {
      * A map with pattern matching regular expressions
      */
     public static final Map<String, String> PATTERNS = new HashMap<String, String>() {{
-        put("email", "emailregex");
-        put("url", "urlregex");
+        put("email", "/^[A-za-z0-9]+[\\\\._]*[A-za-z0-9]*@[A-za-z.-]+[\\\\.]+[A-Za-z]{2,6}$/");
+        put("url", "/^(https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)*\\/?$/");
     }};
 
     @JsonIgnore
