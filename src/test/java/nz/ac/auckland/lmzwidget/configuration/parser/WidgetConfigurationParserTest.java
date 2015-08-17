@@ -48,7 +48,6 @@ public class WidgetConfigurationParserTest {
                 "\t\t\t\t\"allItemsLink\" : {\n" +
                 "\t\t\t\t\t\"required\" : true,\t\t\t\t\t\n" +
                 "\t\t\t\t\t\"type\" : \"string\",\n" +
-                "\t\t\t\t\t\"pattern\" : \"url\",\n" +
                 "\t\t\t\t\t\"label\" : \"Where to link to when 'more >' is pressed\"\n" +
                 "\t\t\t\t}\t\t\t\t\n" +
                 "\t\t\t}\n" +
