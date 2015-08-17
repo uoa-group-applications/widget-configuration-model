@@ -13,13 +13,13 @@
 	<packaging>jar</packaging>
 	<name>LMZ Widget Configuration Model</name>
     <description>The JSON model for the LMZ widget configuration protocol</description>
-	<version>1.3</version>
+	<version>1.4-SNAPSHOT</version>
 
 	<scm>
 		<url>https://github.com/uoa-group-application/widget-configuration-model</url>
 		<connection>scm:git:https://github.com/uoa-group-applications/widget-configuration-model.git</connection>
 		<developerConnection>scm:git:git@github.com:uoa-group-applications/widget-configuration-model.git</developerConnection>
-	  <tag>configuration-model-1.3</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<dependencies>
